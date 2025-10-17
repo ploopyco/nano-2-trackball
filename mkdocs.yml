@@ -1,0 +1,14 @@
+site_name: Ploopy Nano 2 Trackball
+site_url: https://ploopyco.github.io/nano-2-trackball
+theme: material
+markdown_extensions:
+  - footnotes
+nav:
+  - 'index.md'
+  - 'assembly-instructions.md'
+  - Appendices:
+    - 'appendices/pcbs.md'
+    - 'appendices/3d-printing.md'
+    - 'appendices/hardware.md'
+    - 'appendices/programming.md'
+  - 'license.md'
