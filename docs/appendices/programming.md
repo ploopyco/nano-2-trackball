@@ -32,7 +32,25 @@ For more details on building QMK firmware in general, see the [QMK firmware guid
 
 ## Putting the Ploopy device into bootloader mode
 
-Putting the Ploopy device into bootloader mode is very simple and straightforward.
+Putting the Ploopy device into bootloader mode is very easy.
+
+1. Unplug it from your computer.
+2. Hold down the button on the Nano 2.
+3. Plug the Ploopy device into your computer.
+4. The computer should recognise that a mass storage device was just plugged in. Once this is done, you should be able to drag and drop files onto the Ploopy device, as if the board was a USB drive.
+
+And that's it. While plugged in this way, the Ploopy device will accept new firmware.
+
+If you want to upload a new firmware file (a ".uf2" file, like "ploopy_nano2_v42069" or something), just drag it into the folder, and it'll automatically install on the Ploopy device and restart itself.
+
+Whenever you want to put new firmware onto the Ploopy device, go through these steps again.
+
+**TIP**: If your firmware is in some kind of strange state and uploading new firmware isn't fixing it, try uploading [a flash nuke](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython#flash-resetting-uf2-3083182) to the Nano 2 before flashing the new firmware. It wipes the memory of the Nano 2 completely clean, which can help clear a few types of errors.
+
+
+## Putting the Ploopy device into bootloader mode if it's bricked
+
+Putting the Ploopy device into bootloader mode if it's bricked is a bit more involved, but still doable.
 
 1. Unplug it from your computer.
 2. Open it by removing the screws in the Base and removing the Top.
@@ -43,12 +61,6 @@ Putting the Ploopy device into bootloader mode is very simple and straightforwar
 7. The computer should recognise that a mass storage device was just plugged in. Once this is done, you should be able to drag and drop files onto the Ploopy device, as if the board was a USB drive. Feel free to remove the tweezers or paperclip at this point.
 
 And that's it. While plugged in this way, the Ploopy device will accept new firmware.
-
-If you want to upload a new firmware file (a ".uf2" file, like "ploopy_nano2_v42069" or something), just drag it into the folder, and it'll automatically install on the Ploopy device and restart itself.
-
-Whenever you want to put new firmware onto the Ploopy device, go through these steps again.
-
-**TIP**: If your firmware is in some kind of strange state and uploading new firmware isn't fixing it, try uploading [a flash nuke](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython#flash-resetting-uf2-3083182) to the Nano 2 before flashing the new firmware. It wipes the memory of the Nano 2 completely clean, which can help clear a few types of errors.
 
 
 ## And that's it!
