@@ -45,3 +45,7 @@ Begin by copying and pasting the following into a text file, saving it as *nano2
 - Click *Authorize Device*. A modal window should pop up, and you should see the *Ploopy Nano 2 Trackball* as an option to connect. Do so now.
 
 You should now see a representation of the buttons of the Nano 2 in the web app. You are now free to modify the button's functionality.
+
+## Quickly updating DPI setting
+
+You can use VIA to quickly update your DPI setting. Update the button to "DPI Config" from "Drag Scroll". Then you can easily click through the 5 predefined DPI settings. When done, switch the button back to "Drag Scroll".
