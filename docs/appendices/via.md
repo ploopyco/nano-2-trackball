@@ -30,7 +30,7 @@ Begin by copying and pasting the following into a text file, saving it as *nano2
             {
               "h": 2
             },
-            "0,1"
+            "0,0"
           ]
         ]
       }
