@@ -12,7 +12,7 @@ What are you waiting for? Your new life awaits.
 
 Nano 2's bought from the [Ploopy store](https://ploopy.co/shop/nano-2-trackball/) come with QMK preloaded. [Check out the documentation](https://ploopyco.github.io/nano-2-trackball/) for instructions on how to load new firmware onto your device. (It's super easy!)
 
-The firmware file that ships with all Nano 2's is included in this repository as well, as `ploopyco_nano2.uf2`.
+The firmware file that ships with all Nano 2's is included in this repository as well, as `firmwares/nano2_natural_dragscroll_toggle.uf2`.
 
 ## Under what license is this released?
 
