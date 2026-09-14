@@ -16,7 +16,7 @@ QMK was built for keyboards, so you'll see lots of references to code that looks
 
 Whenever you see that, use the following syntax:
 
-`-kb ploopyco/nano-2-trackball`
+`-kb ploopyco/nano_2`
 
 and you'll be fine.
 
@@ -25,7 +25,7 @@ and you'll be fine.
 
 Using QMK MSYS or your compilation toolchain of choice, compile the firmware with the following command:
 
-`qmk compile -kb ploopyco/nano-2-trackball/rev2_003 -km default`
+`qmk compile -kb ploopyco/nano_2/rev2_003 -km default`
 
 For more details on building QMK firmware in general, see the [QMK firmware guide](https://docs.qmk.fm/#/newbs_building_firmware).
 
